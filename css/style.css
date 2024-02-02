@@ -1,6 +1,9 @@
 *{
     font-family:Arial, Helvetica, sans-serif;
-    background-color: pink;
+   
+}
+body{
+    background: linear-gradient(rgb(178, 145, 194), pink, rgb(199, 68, 140));
 }
 .logo{
     width: 135px;
@@ -9,7 +12,7 @@
 .NombreEmpresa{
     display: flex;
     align-items: center;
-    margin: 35px;
+    margin: 15px;
 }
 .items{
     display: flex;
@@ -173,47 +176,93 @@
     width: 350px;
     height: 350px;
 }
+.container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 950px 300px;
+    border: solid 2px black;
+    width: 80%;
+    margin:0;
+    padding: 10px;
+}
+.containerimg{
+    display: grid;
+    grid-template-columns: 145px auto;
+}
+.itemms{
+    display: grid;
+    grid-template-rows: 125px 125px 125px 125px;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .foto1{
-    display: flex;
-    justify-content: space-around;
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
 }
 .foto2{
-    display: flex;
-    justify-content: space-around;
-}
-#foto1{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 5px;
     transition: all 0.3s ease-in-out;
-    background: no-repeat url(../images/categoria1/decoracion.jpg);
-    width: 300px;
-    height: 300px;
 }
-#foto1:hover{
-    transform: scale(1.1);
-}#foto2{
+.foto3{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 5px;
     transition: all 0.3s ease-in-out;
-    background: no-repeat url(../images/categoria1/decoracion1.jpg);
-    width: 300px;
-    height: 240px;
 }
-#foto2:hover{
-    transform: scale(1.1);
-}#foto3{
+.foto4{ 
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 5px;
     transition: all 0.3s ease-in-out;
-    background: no-repeat url(../images/categoria1/decoracion2.jpg);
-    width: 300px;
-    height: 300px;
 }
-#foto3:hover{
-    transform: scale(1.1);
+.photo1{
+    position: fixed;
+    visibility: visible;
+    width: 600px;
+    height: auto;
+    margin: 3%;
 }
-#foto4{
-    transition: all 0.3s ease-in-out;
-    background: no-repeat url(../images/categoria1/decoracion3.jpg);
-    width: 300px;
-    height: 300px;
+.photo2{
+    visibility: hidden;
+    position: fixed;
+    margin: 3%;
+    width: 600px;
+    height: auto;
+    top: 135px;
 }
-#foto4:hover{
-    transform: scale(1.1);
+.photo3{
+    visibility: hidden;
+    position: fixed;
+    margin: 3%;
+    width: 600px;
+    height: auto;
+    top: 135px;
+}
+.photo4{
+    visibility: hidden;
+    position: fixed;
+    margin:3%;
+    width: 540px;
+    height: auto;
+    top: 120px;
+    right: 51.9rem;
+}
+.foto2:hover~.photo2{
+    visibility: visible;
+}
+.foto3:hover~.photo3{
+    visibility: visible;
+}
+.foto4:hover~.photo4{
+    visibility: visible;
 }
 .hola{
     text-decoration: none;
@@ -224,9 +273,8 @@
     align-items: center;
 }
 .party{
-    border: 5px solid plum;
-    width: 350px;
-    height: 350px;
+    width: 340px;
+    height: 340px;
 }
 .party1{
     text-align: center;
