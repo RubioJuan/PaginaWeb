@@ -1,228 +1,271 @@
-*{
-    font-family:Arial, Helvetica, sans-serif;
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
-body{
+
+body {
     background: linear-gradient(rgb(178, 145, 194), pink, rgb(199, 68, 140));
 }
-.logo{
+
+.logo {
     width: 135px;
     height: 135px;
 }
-.NombreEmpresa{
+
+.NombreEmpresa {
     display: flex;
     align-items: center;
     margin: 15px;
 }
-.items{
+
+.items {
     display: flex;
     justify-content: space-between;
     margin: 50px;
 }
-.navegador{
+
+.navegador {
     display: flex;
     justify-content: flex-start;
     color: black;
     text-decoration: none;
     padding: 2px;
-    width:110px ;
+    width: 110px;
     height: 40px;
 }
-.navegador:hover{
+
+.navegador:hover {
     border: solid gainsboro;
     background-color: white;
     border-radius: 10px;
 }
-.banner{
+
+.banner {
     border: 5px dashed palevioletred;
     display: flex;
     justify-content: center;
     margin: auto;
     height: 250px;
 }
-.img{
+
+.img {
     display: flex;
     justify-content: space-around;
 }
-#img{
+
+#img {
     transition: all 0.3s ease-in-out;
     display: flex;
-   justify-content: space-around;
+    justify-content: space-around;
 }
-#img:hover{
+
+#img:hover {
     transform: scale(1.05);
 }
-.sorpresa{
+
+.sorpresa {
     border: 5px solid plum;
     width: 250px;
     height: 300px;
 }
-.peluches{
+
+.peluches {
     border: 5px solid plum;
     width: 250px;
     height: 300px;
 }
-.desayunos{
+
+.desayunos {
     border: 5px solid plum;
     width: 250px;
     height: 300px;
 }
-.frase{
+
+.frase {
     display: flex;
     justify-content: center;
     font-size: 25px;
 }
-.finalizacion{
+
+.finalizacion {
     display: flex;
     justify-content: space-around;
     text-align: center;
     align-content: center;
     font-size: 20px;
 }
-.finish{
+
+.finish {
     display: grid;
     text-align: center;
-    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     padding-top: 35px;
 }
-.finish1{
+
+.finish1 {
     display: grid;
 }
-.finish2{
-     display: grid;
-}
-.finish3{
+
+.finish2 {
     display: grid;
 }
-.titulo{
+
+.finish3 {
+    display: grid;
+}
+
+.titulo {
     display: flex;
     justify-content: center;
 }
-.decoraciones{
+
+.decoraciones {
     border: 5px solid plum;
     height: 300px;
     width: 260px;
 }
-.desayunos1{
+
+.desayunos1 {
     border: 5px solid plum;
     height: 400px;
     width: 400px;
 }
-.llavero{
+
+.llavero {
     border: 5px solid plum;
     height: 280px;
     width: 250px;
 }
-.navegador1{
+
+.navegador1 {
     display: flex;
     justify-content: space-around;
     color: black;
     text-decoration: none;
     padding: 2px;
-    width:110px ;
+    width: 110px;
     height: 40px;
 }
-.navegador1:hover{
+
+.navegador1:hover {
     color: purple;
     cursor: pointer;
 }
-.fotosCategorias{
+
+.fotosCategorias {
     display: flex;
     justify-content: space-around;
 }
-.fotosCategorias1{
+
+.fotosCategorias1 {
     display: flex;
     justify-content: space-around;
 }
-.fotosCategorias2{
+
+.fotosCategorias2 {
     display: flex;
     justify-content: center;
 }
-.info{
+
+.info {
     display: flex;
     justify-content: space-around;
 }
-.info1{
+
+.info1 {
     display: flex;
     justify-content: space-around;
 }
-.info2{
+
+.info2 {
     display: flex;
     justify-content: space-around;
 }
-.decoration{
+
+.decoration {
     border: 5px solid plum;
     width: 350px;
     height: 350px;
 }
-.decoration1{
+
+.decoration1 {
     border: 5px solid plum;
     width: 350px;
     height: 350px;
 }
-.decoration2{
+
+.decoration2 {
     border: 5px solid plum;
     width: 350px;
     height: 350px;
 }
-.decoration3{
+
+.decoration3 {
     border: 5px solid plum;
     width: 350px;
     height: 350px;
 }
-.decoration4{
+
+.decoration4 {
     border: 5px solid plum;
     width: 350px;
     height: 350px;
 }
-.container{
+
+.container {
     position: relative;
     display: grid;
-    
     border: solid 2px black;
     width: 98%;
-    margin:0;
+    margin: 0;
     padding: 10px;
 }
-.containerimg{
+
+.containerimg {
     display: grid;
     grid-template-columns: 145px auto;
 }
-.itemms{
+
+.itemms {
     display: grid;
-    grid-template-rows: 125px   ;
+    grid-template-rows: 125px;
     justify-content: space-evenly;
     align-items: center;
 }
-.foto1{
+
+.foto1 {
     width: 100px;
     height: 100px;
     border: 3px solid black;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
 }
-.foto2{
+
+.foto2 {
     width: 100px;
     height: 100px;
     border: 3px solid black;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
 }
-.foto3{
+
+.foto3 {
     width: 100px;
     height: 100px;
     border: 3px solid black;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
 }
-.foto4{ 
+
+.foto4 {
     width: 100px;
     height: 100px;
     border: 3px solid black;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
 }
-.photo1{
+
+.photo1 {
     position: absolute;
     visibility: visible;
     width: 260px;
@@ -231,17 +274,19 @@ body{
     right: 40rem;
     border-radius: 15px;
 }
-.photo2{
+
+.photo2 {
     visibility: hidden;
     position: absolute;
     margin: 0%;
-    width: 325px;
+    width: 340px;
     height: auto;
     top: 75px;
     right: 40rem;
     border-radius: 15px;
 }
-.photo3{
+
+.photo3 {
     visibility: hidden;
     position: absolute;
     width: 330px;
@@ -250,7 +295,8 @@ body{
     right: 40rem;
     border-radius: 15px;
 }
-.photo4{
+
+.photo4 {
     visibility: hidden;
     position: absolute;
     width: 390px;
@@ -259,36 +305,45 @@ body{
     right: 40rem;
     border-radius: 15px;
 }
-.foto2:hover~.photo2{
+
+.foto2:hover~.photo2 {
     visibility: visible;
 }
-.foto3:hover~.photo3{
+
+.foto3:hover~.photo3 {
     visibility: visible;
 }
-.foto4:hover~.photo4{
+
+.foto4:hover~.photo4 {
     visibility: visible;
 }
-.hola{
+
+.hola {
     text-decoration: none;
     color: black;
 }
-.texto{
+
+.texto {
     text-align: center;
     align-items: center;
 }
-.party{
+
+.party {
     width: 340px;
     height: 340px;
 }
-.party1{
+
+.party1 {
     text-align: center;
     align-items: center;
 }
-.video{
+
+.video {
     text-decoration: none;
     color: black;
 }
-.video1{
+
+.video1 {
     text-align: center;
     align-items: center;
     font-size: 25px;
