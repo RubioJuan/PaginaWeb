@@ -277,6 +277,10 @@ body {
 .foto4:hover~.photo4{
     visibility: visible;
 }
+.hola {
+    text-decoration: none;
+    color: black;
+}
 .texto {
     text-align: center;
     align-items: center;
