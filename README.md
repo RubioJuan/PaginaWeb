@@ -133,6 +133,11 @@ img:hover {
 -Para foto1:hover~.photo1, foto2:hover~.photo2, foto3:hover~.photo3, foto4:hover~.photo4, le puse el siguiente codigo:
 
     visibility: visible; Hace que el texto sea visible.
+    
+ -Para hola, le puse los siguientes codigos:
+
+    text-decoration: none; Le quita la decoracion de la letra que en este caso seria el guion bajo.
+    color: black; El color de la letra es negro.   
 
 -Para texto y party1 le puse los siguientes codigos:
 
